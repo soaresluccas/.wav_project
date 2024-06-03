@@ -1,0 +1,110 @@
+.header{
+    width: 100%;
+    background-color: #000;
+    top: 0;
+    z-index: 160;
+    position: fixed;
+}
+
+.header > .interface{
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    padding: 5px 30px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.logo span{
+    color: #fff;
+    font-size: 13px;
+    margin-left: 3px;
+    font-weight: 100;
+    font-family: "Jaro", sans-serif;
+}
+
+.logo svg{
+    width: 40px;
+    margin-right: 7px;
+    
+}
+
+.logo p{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20px;
+    color: #fff;
+}
+
+.nav_bar{
+    display: inline-flex;
+    align-items: center;
+}
+
+.nav_bar a{
+    margin: 10px;
+    color: #fff;
+}
+
+.nav_bar nav{
+    margin: 0 1.75rem;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.nav_bar nav a{
+    color: #c9c9c9;
+    transition: all .3s;
+    font-weight: 600;
+    background-color: transparent;
+    padding: 19px 5px;
+    
+}
+
+.nav_bar nav .ativo{
+    color: #fff;
+    background-color: #111111a1;
+}
+
+.nav_bar nav a:hover{
+    background-color: #111111a1;
+    color: #fff;
+    
+}
+
+#entrar:hover{
+    color: #000;
+    background-color: #fff;
+}
+
+#entrar{
+    background-color: transparent;
+    padding: 5px 10px;
+    border-radius: 3px;
+    color: #fff;
+    transition: all .5s;
+   
+}
+
+#cad{
+    background-color: #fff;
+    padding: 5px 10px;
+    border-radius: 3px;
+    color: #000;
+    text-transform: uppercase;
+    transition: all .5s;
+    border: solid 1px #fff;
+}
+
+#cad:hover{
+    background-color: transparent;
+    color: #fff;
+    
+}
