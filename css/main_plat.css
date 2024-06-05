@@ -1,0 +1,92 @@
+.main{
+    height: 100vh;
+    width: 100%;
+    margin: 0 auto;
+    
+}
+
+.main > .interface{
+    
+    
+}
+
+#teste{
+    margin-top: 30rem;
+}
+
+.row_container{
+    overflow: hidden;    
+    margin-top: 8rem;
+}
+
+.row_container .titulo_row{
+    color: #fff;
+    border-bottom: 1px solid #c5c5c5;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.row_container #row1{
+    width: 90%;
+    display: flex;
+    
+}
+
+#row1 .card_row{
+    padding: 80px;
+    background-color: red;
+    margin: 15px;
+}
+
+.feed{
+    
+    margin-top: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+
+.feed .feed_publi{
+    
+    background-color: red;
+    width: 60%;
+    height: 120rem;
+    margin: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.feed_publi .cards_feed{
+    background-color: blue;
+    width: 90%;
+    height: 100%;
+    margin: 20px;
+}
+
+.feed .feed_users{
+    position: relative;
+    bottom: 400px;
+    background-color: red;
+    width: 40%;
+    height: 70rem;
+    margin: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.feed_users .cards_users{
+    background-color: blue;
+    height: 100px;
+    width: 90%;
+    margin: 20px;
+}
+
+
+
+
