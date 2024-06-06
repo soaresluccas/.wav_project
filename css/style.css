@@ -229,5 +229,20 @@ a{
     
 }
 
+.next_btn{
+    position: absolute;
+    margin-top: 85px;
+    right: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.next_btn button{
+    border: none;
+    cursor: pointer;
+    background: transparent;
+}
 
 /* DESTAQUES FIM*/

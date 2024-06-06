@@ -15,8 +15,11 @@
 }
 
 .row_container{
-    overflow: hidden;    
+    position: relative;
+    width: 90%;
+    margin: auto;
     margin-top: 8rem;
+    overflow: hidden;
 }
 
 .row_container .titulo_row{
@@ -27,9 +30,9 @@
 }
 
 .row_container #row1{
-    width: 90%;
     display: flex;
-    
+    overflow: hidden; 
+    transition: transform 0.5s ease;
 }
 
 #row1 .card_row{
@@ -86,6 +89,7 @@
     width: 90%;
     margin: 20px;
 }
+
 
 
 
