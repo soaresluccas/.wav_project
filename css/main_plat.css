@@ -29,13 +29,12 @@
     font-weight: bold;
 }
 
-.row_container #row1{
+.row_container #row1, .row_container #row2, .row_container #row3, .row_container #row4{
     display: flex;
-    overflow: hidden; 
     transition: transform 0.5s ease;
 }
 
-#row1 .card_row{
+#row1 .card_row, #row2 .card_row, #row3 .card_row, #row4 .card_row{
     padding: 80px;
     background-color: red;
     margin: 15px;
@@ -90,6 +89,56 @@
     margin: 20px;
 }
 
+.prev_btn, .next_btn {
+    border: none;
+    opacity: 0;
+    background: transparent;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 35px;
+    z-index: 1;
+    color: #fff;
+    transition: all .5s;
+}
+
+
+
+.prev_btn {
+    left: 10px;
+}
+
+.next_btn {
+    right: 10px;
+}
+
+.next_btn button{
+    background: transparent;
+    border: none;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.next_btn button i{
+    color: #fff;
+}
+
+.prev_btn button{
+    background: transparent;
+    border: none;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.prev_btn button i{
+    color: #fff;
+}
+
+
+
+.row_container:hover .next_btn, .row_container:hover .prev_btn  {
+    opacity: 1; /* Visível ao passar o mouse */
+}
 
 
 
