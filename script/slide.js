@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const nextBtn = container.querySelector('.btn_next');
         const prevBtn = container.querySelector('.btn_prev');
         const row = container.querySelector('.row');
-        let currentIndex = 0;
+        let currentIndex = 0;   
 
         
         const cardWidth = row.querySelector('.card_row').offsetWidth + 20; 
