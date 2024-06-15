@@ -1,0 +1,190 @@
+.main{
+    margin: 0 auto;
+
+}
+
+.main > .interface{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.container_dif{
+    background-color: black;
+    width: 70%;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo_dif a{
+    display: inline-flex;
+    gap: 3px;
+    text-align: center;
+    margin: 20px;
+    margin-bottom: 40px;
+}
+
+.logo_dif a p{
+    font-size: 40px;
+    color: #a7a7a7;
+    font-weight: bold;
+    text-transform: uppercase;  
+}
+
+.logo_dif a i{
+    color: #a7a7a7;
+    
+}
+
+
+.form_container{
+    width: 30%;
+    height: 90vh;
+    background-color: #0D0D0D;
+    border: solid 1px #595959;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.div_ou{
+    margin-bottom: 30px;
+    margin-top: 30px;
+    width: 60%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.div_ou .border{
+    border: solid 2px #595959;
+    width: 100%;
+}
+
+.div_ou .ou{
+    font-weight: bold;
+    color: #595959;
+}
+
+.login_api{
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+
+form a{
+    color: #a7a7a7;
+    text-align: center;
+    text-transform: uppercase;
+    transition: all .3s;
+   
+}
+
+#reset_senha{
+    margin-top: 30px;
+}
+
+
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+form #input_txt {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    outline: none;
+    padding: 20px 40px;
+    border: solid 2px #a7a7a7;
+    border-radius: 5px;
+    background-color: transparent;
+    color: #fff;
+    font-size: 18px;
+}
+
+form #input_txt::placeholder{
+    font-family: 'Chakra Petch';
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+form #input_btn{
+    margin-bottom: 10px;
+    margin-top: 10px;
+    outline: none;
+    padding: 10px 40px;
+    background-color: #fff;
+    border: solid 2px #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Chakra Petch';
+    font-size: 18px;
+    transition: all .3s;
+    
+}
+
+form #input_btn:hover{
+    background-color: transparent;
+    color: #a7a7a7;
+}
+
+form #cad{
+    padding: 10px 40px;
+    border: solid 2px #fff;
+    border-radius: 5px;
+    background-color: transparent;
+    margin-bottom: 2.5rem;
+}
+
+form #cad:hover{
+    background-color: #fff;
+    color: #000;
+    
+}
+
+#logo_form{
+    background-color: transparent;
+    display: none;
+}
+
+#logo_form a{
+    margin: 5px;
+
+    margin-bottom: -5rem;
+}
+
+#logo_form a p{
+    font-size: 20px;
+}
+
+#logo_form a span{
+    font-size: 10px;
+}
+
+@media screen and (max-width: 1020px) {
+    .form_container{
+        position: absolute;
+        width: 50%;
+    }
+
+    .container_dif{
+        width: 90%;
+    }
+
+    #logo_form{
+        display: flex;
+    }
+
+    #logo_dif{
+        display: none;
+    }
+}
