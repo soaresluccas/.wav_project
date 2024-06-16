@@ -61,54 +61,57 @@
 .feed{ 
     margin-top: 10rem;
     display: flex;
+    width: 100%;
+    border-bottom: solid 1px #7c7c7c;
+    border-top: solid 1px #7c7c7c;
 }
 
 
 
 .feed .feed_publi{
-    background-color: #000;
-    border-radius: 15px;
+    
+    
     width: 60%;
     height: auto;
-    margin: 50px;
+    border-right: solid 1px #7c7c7c;
     display: flex;
     align-items: center;
     flex-direction: column;
-    box-shadow: 4px 4px 8px 4px #000000;
+    
 }
 
 .feed_publi .cards_feed{
-    background-color: #595959;
+    background-color: #000;
     width: 90%;
     height: 150px;
     margin: 20px;
-    border-radius: 10px;
-    box-shadow: 2px 2px 5px 2px #161616;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px 2px #000;
 }
 
 .feed .feed_users{
-    background-color: #000;
+    
     width: 40%;
     height: 50rem;
-    margin: 50px;
+    
     display: flex;
     align-items: center;
     flex-direction: column;
-    border-radius: 15px;
-    box-shadow: 4px 4px 8px 4px #000000;
+   
+    
 }
 
 .feed_users .cards_users{
-    background-color: #595959;
+    background-color: #000;
     height: 85px;
     width: 90%;
     margin: 20px;
-    border-radius: 10px;
+    border-radius: 5px;
     display: flex;
     justify-content: space-around;
     align-items: center;
     gap: 15px;
-    box-shadow: 2px 2px 5px 2px #161616;
+    box-shadow: 2px 2px 5px 2px #0000;
 }
 
 .cards_users i{
@@ -162,6 +165,7 @@
 
 .next_btn {
     right: 10px;
+    
 }
 
 .next_btn button{
@@ -206,9 +210,9 @@
 .filtro_container{
     padding: 20px;
     margin-bottom: -10rem;
-    background-color: #000;
-    border-radius: 15px;
-    border: solid 3px #595959;
+    background-color: #0D0D0D;
+    border-radius: 5px;
+    border: solid 1px #595959;
     box-shadow: 4px 4px 8px 4px #000000;
     transition: margin-top 1s cubic-bezier(0.25, 0.8, 0.25, 1);
     top: 6rem;
@@ -278,17 +282,97 @@
 .top_plat{
     width: 100%;
     height: 730px;
-    background-color: #000;
+    
     position: relative;
     
     
     z-index: 0;
 }
 
+.top_plat .background_video{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 0;
+    
+}
+
+.top_plat .background_video video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    
+}
+
+.top_plat .contente_absolute{
+    width: 50%;
+    position: relative;
+    z-index: 1;
+    background: linear-gradient(to right, rgb(0, 0, 0), transparent);
+    height: 100%;
+}
+
+.top_plat .contente_absolute .contente_adjust{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 150px;
+    left: 120px;
+}
+
+.contente_adjust h2{
+    font-size: 40px;
+    color: #7c7c7c;
+    display: flex;
+    gap: 5px;
+    margin-bottom: 30px;
+}
+
+
+
+
+.contente_adjust h2 span{
+    font-size: 15px;
+}
+
+.contente_adjust h1{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 40px;
+    border-bottom: solid 2px #7c7c7c;
+}
+
+.contente_adjust #span{
+    color: #7c7c7c;
+    margin-top: 30px;
+    font-size: 20px;
+
+
+}
+
+.contente_adjust a{
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    width: 225px;
+    text-align: center;
+}
+
+.contente_adjust a span{
+    text-transform: uppercase;
+    color: #161616;
+}
+
 .margin_top{
-    top: -130px;
+    top: -100px;
     position: relative;
 }
+
+
+
+
 
 
 

@@ -130,9 +130,10 @@
 
 .search button{
     border: none;
-    padding: 0 20px;
+  
     cursor: pointer;
     background: transparent;
+    margin: 0px 20px;
 }
 
 
@@ -370,4 +371,123 @@
     transform: translate(-50%, -50%) rotate(-45deg);
   }
   
+.carrinho{
+    transition: all .3s;
+    border-radius: 100%;
+    padding: 10px 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    color: #fff;
+    margin-right: -5rem;
+}
+
+.carrinho:hover{
+    background-color: #a0a0a05e;
+}
+
+.carrinho i{
+    font-size: 20px;
+}
+
+.card_car{
+    background-color: #0D0D0D;
+    
+    position: absolute;
+    top: -500px;
+    left: 120px;
+    right: 120px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin: 0 auto;
+    border: solid 1px #595959;
+    width: 400px;
+    height: auto;
+    opacity: 0;
+    transition: all ease 1s;
+}
+
+.card_car.active_car{
+    top: 140px;
+    opacity: 1;
+    
+}
+
+.card_car .header_car{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #5959593d;
+    padding: 15px;
+}
+
+.card_car .header_car h2{
+    color: #fff;
+}
+
+.card_car .header_car .fechar_car{
+    transition: all .3s;
+    border-radius: 100%;
+    padding: 10px 12px;
+    color: #c9c9c9;
+    cursor: pointer;
+}
+
+.card_car .header_car .fechar_car:hover{
+    background-color: #59595944;
+}
+
+.card_car .content_car{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 80pxs;
+    margin-top: 3rem;
+}
+
+.card_car .content_car h4{
+    color: #fff;
+}
+
+.card_car .content_car .container_precos{
+    display: flex;
+    flex-direction: column;
+    margin: 5rem 2rem;
+    margin-bottom: 2rem;
+    align-items: flex-end;
+    position: relative;
+    left: 90px;
+}
+
+.container_precos button{
+    border: none;
+    background-color: transparent;
+    color: #8f8f8f;   
+    margin-top: 10px; 
+}
+
+.footer_car{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.footer_car a{
+    width: 80%;
+    height: 50px;
+    margin-bottom: 20px;
+    text-align: center;
+    border-radius: 5px;
+    color: #8f8f8f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #5959594d;
+}
+
+
   
