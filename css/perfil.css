@@ -7,7 +7,7 @@
 
 .main > .interface{
     display: flex;
-    
+    flex-direction: column;
     align-items: center;
     justify-content: center;
 }
@@ -15,57 +15,74 @@
 .container_perfil{
     height: auto;
     display: flex;
-    flex-wrap: wrap;
+    width: 100%;
     align-items: center;
     justify-content: center;
-    padding: 10rem;
+    margin-top: 10rem;
 }
 
 .container_perfil .card_perfil{
-    padding: 120px 220px;
+    width: 400px;
+    height: 250px;
     background-color: #595959;
-    border-radius: 15px;
+    border-radius: 10px;
     margin: 5px;
     transition: all ease .8s;
 }
 
 
 .container_perfil .card_info{
-    padding: 120px 220px;
+    width: 500px;
+    height: 250px;
     background-color: #595959;
-    border-radius: 15px;
+    border-radius: 10px;
     margin: 5px;
-    flex-grow: 1;
-    flex-basis: 200;
+   
     transition: all ease .8s;
 }
 
-.container_perfil .card_numeros{
-    padding: 120px 220px;
-    background-color: #595959;
-    border-radius: 15px;
-    margin: 5px;
-    flex-grow: 1;
-    flex-basis: 200;
-    transition: all ease .8s;
+.divisor_perfil{
+    margin-top: 20px;
+    width: 910px;
+    border-top: solid 1px #595959;
 }
 
-.container_perfil .card_feed{
-    padding: 120px 220px;
-    background-color: #595959;
-    border-radius: 15px;
-    margin: 5px;
-    transition: all ease .8s;
-}
-
-.card_perfil:hover, .card_info:hover, .card_numeros:hover, .card_feed:hover{
-    transform: scale(1.05);
-    margin: 10px;
-}
-
-.card_feed, .card_perfil, .card_info, .card_numeros{
+.bottom_perfil{
+    
     height: auto;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 20px;
 }
+
+.card_numeros{
+    width: 400px;
+    height: 250px;
+    background-color: #5959596d;
+    border-left: solid 10px #595959;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    transition: all ease .8s;
+}
+
+.card_feed{
+    width: 500px;
+    height: auto;
+    background-color: #5959596d;
+    border-left: solid 2px #595959;
+    margin: 5px;
+    transition: all ease .8s;
+    display: flex;
+    flex-direction: column;
+   
+    align-items: center;
+}
+
+
+
+
 
 
 .filtro > .interface{
@@ -145,4 +162,102 @@
 
 .titulo-fil h1{
     margin-top: 30px;
+}
+
+
+.card_perfil{
+    display: inline-flex;
+    gap: 20px;
+    
+}
+
+.icon_perfil{
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    background-color: #595959;
+    border: solid 2px #c5c5c5;
+
+}
+
+
+
+.nome_perfil{
+    margin-top: 50px;   
+}
+
+.infos{
+    margin-top: 20px;
+    margin-left: 30px;
+    color: #fff;
+    display: inline-flex;
+    gap: 10px;
+}
+
+.footer_card_info{
+    margin-top: 150px;
+    margin-left: 30px;
+}
+
+.footer_card_info a span{
+    color: #a8a8a8;
+    transition: all .2s;
+    margin-left: 20px;
+}
+
+.footer_card_info a span:hover{
+    color: #fff;
+}
+
+.footer_numeros{
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.footer_numeros a{
+    background-color: #595959;
+    height: 40px;
+    width: 220px;
+    color: #fff;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    border-radius: 10px;
+    transition: all .5s;
+}
+
+.footer_numeros a:hover{
+    background-color: #a8a8a89c;
+    color: #d5d5d5;
+}
+
+#margin{
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.header_feed{
+    margin-top: 50px;
+    
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border-bottom: solid 1px #595959;
+}
+
+.header_feed a{
+    margin-bottom: 30px;
+    color: #a8a8a8;
+    display: inline-flex;
+    gap: 20px;
+    font-weight: bold;
+    transition: all .2s;
+}
+
+.header_feed a:hover{
+    color: #c5c5c5;
 }
