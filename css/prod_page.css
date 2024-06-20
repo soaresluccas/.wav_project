@@ -70,7 +70,6 @@
 }
 
 .footer_card .player_music{
-    width: 805px;
     height: 50px;
     background-color: #5959593b;
     margin-top: 15px;
@@ -88,6 +87,47 @@
     flex-direction: column;
     align-items: center;
     border-radius: 10px;
+}
+
+
+@media screen and (max-width: 1024px) {
+    .container_content{
+        width: 90%;
+    }
+
+    .card_prod{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .card_prod .card_capa{
+        height: 230px;
+        width: 230px;
+        margin-bottom: 35px;
+    }
+
+    .card_prod .details_prod{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-left: 0;
+    }
+
+    .footer_card{
+        align-items: center;
+        justify-content: center;
+        display: flex;
+    }
+
+    .footer_card .player_music{
+        margin-left: 0;
+        width: 90%;
+        margin-bottom: 15px;
+    }
 }
 
 
