@@ -1,5 +1,4 @@
 .main{
-    
     height: auto;
     width: 100%;
     margin: 0 auto;
@@ -10,6 +9,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    width: 100%;
 }
 
 .container_perfil{
@@ -43,7 +43,7 @@
 
 .divisor_perfil{
     margin-top: 20px;
-    width: 910px;
+    width: 100%;
     border-top: solid 1px #595959;
 }
 
@@ -78,6 +78,10 @@
     flex-direction: column;
    
     align-items: center;
+}
+
+.card_perfil .infos{
+    display: none;
 }
 
 
@@ -260,4 +264,68 @@
 
 .header_feed a:hover{
     color: #c5c5c5;
+}
+
+
+.card_info_mobile{
+    display: none;
+}
+
+@media screen and (max-width: 900px) {
+    .container_perfil{
+        flex-direction: column;
+        
+    }
+
+    .container_perfil .card_perfil{
+        width: 80%;
+    }
+
+    .card_info{
+        display: none;
+    }
+
+    .card_info_mobile{
+        display: flex;
+
+    }
+
+    .container_perfil .card_perfil{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .nome_perfil{
+        margin-top: 0;
+        text-align: center;
+    }
+
+    .icon_perfil{
+        width: 70px;
+        height: 70px;
+    }
+
+    .infos{
+        margin-left: 0;
+    }
+
+    .bottom_perfil{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .card_numeros{
+        width: 90%;
+    }
+
+    .card_feed{
+        width: 90%;
+    }
+
+    .card_perfil .infos{
+        display: block;
+    }
 }
