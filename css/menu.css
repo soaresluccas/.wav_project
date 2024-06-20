@@ -110,6 +110,12 @@
 }
 
 
+.container_slaman{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
 
 .search{
     width: 50%;
@@ -129,8 +135,7 @@
 }
 
 .search button{
-    border: none;
-  
+    border: none; 
     cursor: pointer;
     background: transparent;
     margin: 0px 20px;
@@ -380,7 +385,7 @@
     justify-content: center;
     cursor: pointer;
     color: #fff;
-    margin-right: -5rem;
+   margin-right: 20px;
 }
 
 .carrinho:hover{
@@ -393,7 +398,7 @@
 
 .card_car{
     background-color: #0D0D0D;
-    
+    z-index: 170;
     position: absolute;
     top: -500px;
     left: 120px;
@@ -490,4 +495,74 @@
 }
 
 
-  
+.header_search{
+    display: none;
+}  
+
+@media screen and (max-width: 1020px) {
+    .header_search{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: auto;
+        top: 80px;
+        z-index: 160;
+        position: fixed;
+        background-color: rgb(43, 43, 43);
+        border-top: solid 1px #8f8f8f;
+    }
+
+    .header_search .search{
+        margin-top: 6px;
+        margin-bottom: 6px;
+        width: 90%;
+    }
+
+
+    .header > .interface{
+        justify-content: space-between;
+    }
+
+    .interface .search{
+        display: none;
+    }
+
+    .nav_myuser{
+        margin-right: 20px;
+    }
+
+    .user_screem_menu{
+        z-index: 170;
+    }
+
+    .ham-menu{
+        z-index: 180;
+    }
+
+    .off-screen-menu{
+        z-index: 170;
+    }
+
+    
+}
+
+
+@media screen and (max-width: 430px) {
+    .card_car{
+        left: 60px;
+       
+    }
+}
+
+@media screen and (min-width: 361px) and (max-width: 410px) {
+    .card_car{
+        left: 50px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .card_car{
+        left: 40px;
+    }
+}
