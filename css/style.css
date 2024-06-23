@@ -20,6 +20,7 @@
 
 }
 
+
 ::-webkit-scrollbar-thumb{
     background-color: #242424;
     border-radius: 10px;
@@ -247,7 +248,7 @@ a{
 /* SOBRE */
 
 .sobre{
-    height: 100vh;
+    height: auto;
     width: 100%;
 }
 
@@ -280,8 +281,7 @@ a{
 }
 
 .card_sobre .img{
-    padding: 40px;
-    background-color: red;
+    
     margin: 20px;
 }
 
@@ -306,7 +306,7 @@ a{
 /* FAQ */
 
 .faq{
-    padding: 10rem 4%;
+    height: auto;
     width: 100%;
     background-color: #919191;
 }
@@ -317,12 +317,22 @@ a{
     align-items: center;
 }
 
-.container_faq .txt_faq{
-    margin: 20px;
+.container_faq{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 40%;
+    height: 350px;
+}
+
+.container_faq .txt_faq h4{
+    margin-top: 10px;
+    color: #424242;
 }
 
 .container_faq .btn_faq{
-    margin: 10px;
+   margin-top: 50px;
 }
 
 .btn_faq a{
