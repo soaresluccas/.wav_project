@@ -1,0 +1,48 @@
+.login_api h1{
+    color: #c9c9c9;
+}
+
+form .perfil_user a{
+    display: inline-flex;
+    width: 80%;
+    margin: 25px;
+    gap: 20px;
+    border-radius: 5px;
+    color: #fff;
+    padding: 5px;
+    transition: all .5s;
+}
+
+.perfil_user a:hover{
+    background-color: #595959;
+}
+
+.perfil_icon_off{
+    background-color: #595959;
+    padding: 20px;
+    border-radius: 999px;
+    border: solid 2px #c9c9c9;
+}
+
+.info_user{
+    display: flex;
+    flex-direction: column;
+   
+
+}
+
+.info_user h3{
+    font-size: 17px;
+
+}
+
+.info_user span{
+    font-size: 15px;
+    color: #8f8f8f;
+}
+
+#select_arq{
+   color: #fff;
+   margin-bottom: 20px;
+}
+

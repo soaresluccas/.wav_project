@@ -1,0 +1,154 @@
+.main{
+    width: 100%;
+    
+}
+
+.main > .interface{
+    margin-top: 15rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container_form_up{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.perfil_user_edit{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+
+    margin-bottom: 50px;
+}
+
+.container_form_up .form{
+    width: 60%;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form form{
+    width: 50%;
+    height: auto;
+    display: flex;
+  
+    flex-direction: column;
+}
+
+.perfil_user_edit {
+    background-color: #525252;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.perfil_user_edit a .icon_div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px; 
+}
+
+.perfil_user_edit a .icon_div .perfil_icon_off{
+    width: 80px;
+    height: 80px;
+}
+
+.info_user{
+    margin-bottom: 20px;
+}
+
+.perfil_user_edit a .h3_div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.perfil_user_edit input{
+    margin: 20px;
+    outline: none;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+.icon_div i{
+    font-size: 30px;
+    color: #a8a8a8;
+    transition: all .25s;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.icon_div i:hover{
+    color: #fff;
+    background-color: #525252;
+}
+
+.info_user i{
+    font-size: 30px;
+    color: #a8a8a8;
+    transition: all .25s;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.info_user i:hover{
+    color: #fff;
+    background-color: #525252;
+}
+
+.info_user h3{
+    color: #fff;
+    font-size: 30px;
+}
+
+#input_arq{
+    color: #fff;
+    display: none;
+}
+
+#input_text{
+    display: none;
+}
+
+.form_del{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #525252;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.form_del h1{
+    color: #fff;
+}
+
+.form_del label{
+    margin-top: 50px;
+    width: 100%;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form_del label select{
+    padding: 10px;
+    width: 150px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+}
