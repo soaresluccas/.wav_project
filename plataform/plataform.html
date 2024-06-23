@@ -34,7 +34,7 @@
             <!-- /.ham_menu -->
             <div class="search">
                 <input type="text" id="busca" placeholder="Pesquise algo como Type beat ou DrumKits type...">
-                <button id="filter" type="submit">
+                <button class="filter" type="submit">
                     <i class="bi bi-funnel"></i>
                 </button>
                 <button type="submit">
@@ -129,12 +129,13 @@
                     </div>
                 </div>
             </div>
+            
         </div>
         <!-- /.interface -->
         <div class="header_search">
             <div class="search">
                 <input type="text" id="busca" placeholder="Pesquise algo como Type beat ou DrumKits type...">
-                <button id="filter" type="submit">
+                <button class="filter" type="submit">
                     <i class="bi bi-funnel"></i>
                 </button>
                 <button type="submit">
@@ -148,7 +149,7 @@
 
     <div class="top_plat">
         <div class="background_video">
-            <video src="../video/M'dii Rog - Mais um dia (Prod.Élipê) (720p).mp4" autoplay loop muted></video>
+            <video id="background_video" src="../video/M'dii Rog - Mais um dia (Prod.Élipê) (720p).mp4" autoplay loop muted></video>
         </div>
         <div class="contente_absolute">
            <div class="contente_adjust">
@@ -161,6 +162,14 @@
                 <a href="../pages/explorar.html">
                     <span>explorar agora</span>
                 </a>
+           </div>
+
+           <div class="menu_video">
+                <a href="https://youtu.be/wj0kuTSEcVU?si=KwA00ozy-2Z5F048" target="_blank">
+                    ACESSAR CLIPE OFICIAL
+                </a>
+
+                <span id="btn_volume"><i class="bi bi-volume-up"></i></span>
            </div>
         </div>
     </div>
@@ -274,45 +283,65 @@
                 <div id="row1" class="row">
                    
                     
-                    <div class="card_row">
-                        <i class="bi bi-music-note-beamed"></i>
-                    </div>
-                    <div class="card_row">
-                        <i class="bi bi-music-note-beamed"></i>
-                    </div>
-                    <div class="card_row">
-                        <i class="bi bi-music-note-beamed"></i>
-                    </div>
-                    <div class="card_row">
-                        <i class="bi bi-music-note-beamed"></i>
-                    </div>
-                    <div class="card_row">
-                        <i class="bi bi-music-note-beamed"></i>
-                    </div>
-                    <div class="card_row">
-                        <i class="bi bi-music-note-beamed"></i>
-                    </div>
-                    <div class="card_row">
-                        <i class="bi bi-music-note-beamed"></i>
-                    </div>
-                    <div class="card_row">
-                        <i class="bi bi-music-note-beamed"></i>
-                    </div>
-                    <div class="card_row">
-                        <i class="bi bi-music-note-beamed"></i>
-                    </div>
-                    <div class="card_row">
-                        <i class="bi bi-music-note-beamed"></i>
-                    </div>
-                    <div class="card_row">
-                        <i class="bi bi-music-note-beamed"></i>
-                    </div>
-                    <div class="card_row">
-                        <i class="bi bi-music-note-beamed"></i>
-                    </div>
-                    <div class="card_row">
-                        <i class="bi bi-music-note-beamed"></i>
-                    </div>
+                 
+                    <a href="../pages/prod_page.html" class="card_row">
+                        <span class="btn_play">
+                            <i class="bi bi-play-circle"></i>
+
+                            
+                        </span>
+                        <h3>Titulo do produto</h3>
+                        <audio class="audio_player" src="../audio/(FREE FOR PROFIT) new jazz x pluggnb type beat _por onde eu vou_ (320).mp3"></audio>
+                    </a>
+                    <a href="../pages/prod_page.html" class="card_row">
+                        <span class="btn_play">
+                            <i class="bi bi-play-circle"></i>
+
+                            
+                        </span>
+                        <h3>Titulo do produto</h3>
+                        <audio class="audio_player" src="../audio/(FREE FOR PROFIT) new jazz x pluggnb type beat _por onde eu vou_ (320).mp3"></audio>
+                    </a>
+                    <a href="../pages/prod_page.html" class="card_row">
+                        <span class="btn_play">
+                            <i class="bi bi-play-circle"></i>
+
+                            
+                        </span>
+                        <h3>Titulo do produto</h3>
+                        <audio class="audio_player" src="../audio/(FREE FOR PROFIT) new jazz x pluggnb type beat _por onde eu vou_ (320).mp3"></audio>
+                    </a>
+                    <a href="../pages/prod_page.html" class="card_row">
+                        <span class="btn_play">
+                            <i class="bi bi-play-circle"></i>
+
+                            
+                        </span>
+                        <h3>Titulo do produto</h3>
+                        <audio class="audio_player" src="../audio/(FREE FOR PROFIT) new jazz x pluggnb type beat _por onde eu vou_ (320).mp3"></audio>
+                    </a>
+                    <a href="../pages/prod_page.html" class="card_row">
+                        <span class="btn_play">
+                            <i class="bi bi-play-circle"></i>
+
+                            
+                        </span>
+                        <h3>Titulo do produto</h3>
+                        <audio class="audio_player" src="../audio/(FREE FOR PROFIT) new jazz x pluggnb type beat _por onde eu vou_ (320).mp3"></audio>
+                    </a>
+                    <a href="../pages/prod_page.html" class="card_row">
+                        <span class="btn_play">
+                            <i class="bi bi-play-circle"></i>
+
+                            
+                        </span>
+                        <h3>Titulo do produto</h3>
+                        <audio class="audio_player" src="../audio/(FREE FOR PROFIT) new jazz x pluggnb type beat _por onde eu vou_ (320).mp3"></audio>
+                    </a>
+                    
+                   
+                    
+                    
                 </div>
 
                 <div class="next_btn">
@@ -333,45 +362,26 @@
                     </button>
                 </div>
                 <div id="row1" class="row">
-                    <div class="card_row">
-                        <i class="bi bi-music-note-beamed"></i>
-                    </div>
-                    <div class="card_row">
-                        <i class="bi bi-music-note-beamed"></i>
-                    </div>
-                    <div class="card_row">
-                        <i class="bi bi-music-note-beamed"></i>
-                    </div>
-                    <div class="card_row">
-                        <i class="bi bi-music-note-beamed"></i>
-                    </div>
-                    <div class="card_row">
-                        <i class="bi bi-music-note-beamed"></i>
-                    </div>
-                    <div class="card_row">
-                        <i class="bi bi-music-note-beamed"></i>
-                    </div>
-                    <div class="card_row">
-                        <i class="bi bi-music-note-beamed"></i>
-                    </div>
-                    <div class="card_row">
-                        <i class="bi bi-music-note-beamed"></i>
-                    </div>
-                    <div class="card_row">
-                        <i class="bi bi-music-note-beamed"></i>
-                    </div>
-                    <div class="card_row">
-                        <i class="bi bi-music-note-beamed"></i>
-                    </div>
-                    <div class="card_row">
-                        <i class="bi bi-music-note-beamed"></i>
-                    </div>
-                    <div class="card_row">
-                        <i class="bi bi-music-note-beamed"></i>
-                    </div>
-                    <div class="card_row">
-                        <i class="bi bi-music-note-beamed"></i>
-                    </div>
+                    <a href="#" class="card_row" id="trap">
+                        <h1>TRAP</h1>
+                    </a>
+                    <a href="#" class="card_row" id="drill">
+                        <h1>DRILL</h1>
+                    </a>
+                    <a href="#" class="card_row" id="boombap">
+                        <h1>BOOM BAP</h1>
+                    </a>
+                    <a href="#" class="card_row" id="plug">
+                        <h1>PLUG</h1>
+                    </a>
+                    <a href="#" class="card_row" id="newjazz">
+                        <h1>NEW JAZZ</h1>
+                    </a>
+                    <a href="#" class="card_row" id="jersey">
+                        <h1>JERSEY CLUB</h1>
+                    </a>
+                 
+
                 </div>
 
                 <div class="next_btn">
@@ -499,34 +509,71 @@
         <div class="feed">
             
             <div class="feed_publi">
-                <div class="cards_feed">
-                    
+                <div class="container_exp">
+                    <div class="conteiner_cards_feed">
+                        <div class="cards_feed">
+                            <div class="header_cards_feed">
+                                <div class="icon_perfil">
+        
+                                </div>
+                                <div class="colum_infos">
+                                    <div class="titulo_prod"><h1>Titulo do Produto</h1></div>
+                                    <span style="color: #595959;">Nome User</span>
+                                </div>
+                            </div>
+        
+                            <div class="player_feed">
+                                <audio controls="controls" muted>
+                                    
+                                </audio>                         
+                            </div>
+    
+                            <div class="footer_cards_feed">
+                                <!-- <div class="btn_login">
+    
+                                </div> -->
+                                <a href="../pages/prod_page.html">
+    
+                                    <span>visitar</span>
+                                    <i class="bi bi-arrow-bar-right"></i>
+                                </a>
+                                <button type="button">
+                                    <i class="bi bi-bookmark-plus"></i>
+                                </button>
+    
+    
+                            </div>
+                        </div>
+                            
+                        <div class="footer_container_feed">
+                            <div class="divisor"></div>
+                            <div class="infos_prod">
+                                <span>130 BPM</span>
+                                <span>BEAT</span>
+                                <span>TRAP</span>
+                                <span>A# Menor</span>
+                                <span>20/06/2024</span>
+    
+                            </div>
+                            <div class="divisor"></div>    
+                            <div class="descricao">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis quis dolore non ipsa eaque minima, voluptatibus eum ea odio natus porro vero temporibus corporis laborum animi harum, perspiciatis, ex explicabo?
+                            </div>
+                        </div>
+                    </div>
+                   
                 </div>
-                <div class="cards_feed">
-                    
-                </div>
-                <div class="cards_feed">
-                    
-                </div>
-                <div class="cards_feed">
-                    
-                </div>
-                <div class="cards_feed">
-                    
-                </div>
-                <div class="cards_feed">
-                    
-                </div>
-                <div class="cards_feed">
-                    
-                </div>
+               
             </div>
             <div class="feed_users">
                 <div class="cards_users">
-                    <div class="user_icon"><i class="bi bi-person-circle"></i></div>
-                    <div class="nome_user">
-                        luizinho gameplays 
-                    </div>
+                    <a href="../pages/perfil_visit.html">
+                        <div class="perfil_icon_off"></div>
+                        <div class="info_user">
+                            <h3>Nome de Usuário</h3>
+                            <span>email@email.com</span>
+                        </div>
+                    </a>
                     <button class="btn_user" type="button">
                         Seguir
                     </button>
@@ -612,6 +659,47 @@
         </div>
     </footer>
 </body>
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        var btnPlays = document.querySelectorAll(".btn_play");
+        var audioPlayers = document.querySelectorAll(".audio_player");
+
+        btnPlays.forEach(function(btnPlay, index) {
+            var audioPlayer = audioPlayers[index];
+
+            btnPlay.addEventListener("click", function(event) {
+                event.stopPropagation();  // Impede a propagação do clique para o link do card
+                event.preventDefault();   // Impede a ação padrão do link
+
+                if (audioPlayer.paused) {
+                    audioPlayer.play();
+                    btnPlay.innerHTML = '<i class="bi bi-pause-circle"></i>';
+                } else {
+                    audioPlayer.pause();
+                    audioPlayer.currentTime = 0;
+                    btnPlay.innerHTML = '<i class="bi bi-play-circle"></i>';
+                }
+            });
+        });
+    });
+</script>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        var btnVolume = document.getElementById('btn_volume');
+        var video = document.getElementById('background_video');
+
+        btnVolume.addEventListener('click', function() {
+            if (video.muted) {
+                video.muted = false;
+                btnVolume.innerHTML = '<i class="bi bi-volume-mute"></i>';
+            } else {
+                video.muted = true;
+                btnVolume.innerHTML = '<i class="bi bi-volume-up"></i>';
+            }
+        });
+    });
+</script>
 <script src="../script/myuser.js"></script>
 <script src="../script/filtro.js"></script>
 <script src="../script/slide.js"></script>
