@@ -62,17 +62,41 @@ a{
 
 .topo > .interface{
     display: flex;
-    flex-grow: 1;
+    justify-content: space-between;
     align-items: center;
+   
 }
 
 .slider_text{
-    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
     width: 50%;
-    height: 100px;
+    height: 100vh;
+    
 
 }
 
+.slider_text h1{
+    color: #fff;
+    margin-bottom: 30px;
+    margin-left: 120px;
+}
+
+.slider_text p{
+    color: #c5c5c5;
+    margin-left: 120px;
+}
+
+.slider_text a{
+    margin-left: 120px;
+    margin-top: 30px;
+    color: #242424;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 10px;
+}
 
 
 
@@ -271,6 +295,7 @@ a{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .container_sobre .card_sobre{
@@ -278,10 +303,12 @@ a{
     justify-content: space-between;
     align-items: center;
     margin: 20px;
+    flex-wrap: wrap;
 }
 
 .card_sobre .img{
-    
+    flex-basis: 200px;
+    flex-grow: 1;
     margin: 20px;
 }
 
@@ -289,7 +316,8 @@ a{
     display: flex;
     flex-direction: column;
     
-
+    flex-basis: 200px;
+    flex-grow: 1;
 }
 
 .txt_sobre h2{
@@ -341,5 +369,7 @@ a{
     border-radius: 10px;
     margin-top: 50px;
 }
+
+
 
 /* FAQ FIM */
